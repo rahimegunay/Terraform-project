@@ -3,7 +3,7 @@ Terraform, an infrastructure as code tool, enables secure and efficient resource
 ![Alt text](<Terraform_Diagram.png>)
 The Terraform Configuration Language, also known as HashiCorp's Configuration Language (HCL), is employed for specifying resources that represent infrastructure components. These configuration files inform Terraform about the plugins to install, the infrastructure to establish, and the data to retrieve.
 
-# Terraform_projects
+# Terraform project
 This project uses a launch template to provision an autoscaling group after using an Application Load Balancer which can scale automatically workloads and deal with the incoming traffic to EC2 instances. 
 ## Requirements
 - AWS IAM user account
