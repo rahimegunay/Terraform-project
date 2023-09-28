@@ -6,7 +6,7 @@ The Terraform Configuration Language, also known as HashiCorp's Configuration La
 # Terraform project
 This project uses a launch template to provision an autoscaling group after using an Application Load Balancer which can scale automatically workloads and deal with the incoming traffic to EC2 instances. 
 ## Requirements
--An AWS account with appropriate permissions.
+- An AWS account with appropriate permissions.
 - Terraform installed on your local machine.
 - Vscode
 - Git(Version controlling)
@@ -18,7 +18,7 @@ This project uses a launch template to provision an autoscaling group after usin
     git clone <repository_url>
     cd terraform-nginx-webserver
 2. Update the terraform.tfvars file with your AWS credentials and customize any other variables as needed.
-3. Initialize the Terraform workspace:
+3. Initialize the Terraform workspace
     terraform init
 
 ## Terraform Configuration
