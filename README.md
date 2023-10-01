@@ -1,5 +1,7 @@
 # Terraform project
+
 This project uses a launch template to provision an autoscaling group after using an Application Load Balancer which can scale automatically workloads and deal with the incoming traffic to EC2 instances. 
+
 ![Alt text](<static-webserver.drawio (2).png>)
 
 ## Requirements
