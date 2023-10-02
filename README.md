@@ -9,7 +9,7 @@ This project uses a launch template to provision an autoscaling group after usin
 - Terraform installed on your local machine.
 - Vscode
 - Git(Version controlling)
-- Basic knowledge of Nginx and AWS services.
+- Basic knowledge of Nginx, Docker and AWS services.
 
 ## Getting Started
 1. Clone this repository to your local machine:
@@ -36,9 +36,16 @@ This project uses a launch template to provision an autoscaling group after usin
 2. Attach the ALB to your auto-scaling group to ensure new instances are automatically registered with the load balancer.
 
 3. Monitor your web server's performance and traffic distribution through the AWS Management Console.
+
+## Docker Deployment with userdata.tpl
+Enhance your Terraform configuration by creating a userdata.tpl file. This template script will run on each EC2 instance upon launch.
+
+Use userdata.tpl to install Docker and deploy your web application containers. You can pull your Docker images and launch containers with the desired configurations.
+
+Customize the userdata.tpl script to suit your application's requirements, such as environment variables, secrets, and container orchestration.
    
 ## Conclusion
-Voila!! You have successfully deployed a scalable static web server powered by Nginx using Terraform, auto-scaling, a load balancer, and launch templates. Your infrastructure is now capable of handling varying workloads, maintaining high availability, and distributing traffic efficiently.
+Voila!! You have successfully deployed a scalable static web server powered by Nginx using Terraform, auto-scaling, a load balancer, launch templates, and Docker on Ubuntu instances. Your infrastructure is now capable of handling varying workloads, maintaining high availability, distributing traffic efficiently, and deploying and managing Docker containers seamlessly..
 
 ## Note
 The resources created in this demo project may incur cost. So please take care to destroy the infrastructure if you don't need it.
