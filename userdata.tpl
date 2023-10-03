@@ -18,4 +18,4 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 source .bashrc
 
 # Run Application
-sudo docker run --name nginx-app -p 80:80 -d ragunay/nginx-app:v1
+sudo docker run --name nginx-app -p 80:80 -d ragunay/nginx-app:v2
