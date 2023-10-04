@@ -38,11 +38,11 @@ This project uses a launch template to provision an autoscaling group after usin
 3. Monitor your web server's performance and traffic distribution through the AWS Management Console.
 
 ## Docker Deployment with userdata.tpl
-Enhance your Terraform configuration by creating a userdata.tpl file. This template script will run on each EC2 instance upon launch.
+1. Enhance your Terraform configuration by creating a userdata.tpl file. This template script will run on each EC2 instance upon launch.
 
-Use userdata.tpl to install Docker and deploy your web application containers. You can pull your Docker images and launch containers with the desired configurations.
+2. Use userdata.tpl to install Docker and deploy your web application containers. You can pull your Docker images and launch containers with the desired configurations.
 
-Customize the userdata.tpl script to suit your application's requirements, such as environment variables, secrets, and container orchestration.
+3. Customize the userdata.tpl script to suit your application's requirements, such as environment variables, secrets, and container orchestration.
    
 ## Conclusion
 Voila!! You have successfully deployed a scalable static web server powered by Nginx using Terraform, auto-scaling, a load balancer, launch templates, and Docker on Ubuntu instances. Your infrastructure is now capable of handling varying workloads, maintaining high availability, distributing traffic efficiently, and deploying and managing Docker containers seamlessly..
