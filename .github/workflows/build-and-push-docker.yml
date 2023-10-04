@@ -28,7 +28,7 @@ jobs:
         push: true
         context: "{{defaultContext}}:docker-build"
         file: docker-build/Dockerfile
-        tags: "${{ secrets.DOCKER_USERNAME }}/nginx-app:v4
+        tags: "${{ secrets.DOCKER_USERNAME }}/nginx-app:v4"
         cache-from: type=gha
         cache-to: type=gha,mode=max
         provenance: false
