@@ -17,5 +17,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 source .bashrc
 
+APP_VERSION=v3
+
 # Run Application
-sudo docker run --name nginx-app -p 80:80 -d ragunay/nginx-app:v3
+sudo docker run --name nginx-app -p 80:80 -d ragunay/nginx-app:${APP_VERSION}
