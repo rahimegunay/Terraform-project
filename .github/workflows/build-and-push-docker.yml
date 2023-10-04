@@ -33,4 +33,4 @@ jobs:
         provenance: false
 
     - name: Update APP_VERSION
-      run: sed -i 's/APP_VERSION=.*/APP_VERSION=v4/' path/to/your/file
+      run: sed -i 's/APP_VERSION=.*/APP_VERSION=v4/' userdata.tpl
