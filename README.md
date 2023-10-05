@@ -45,7 +45,7 @@ This project uses a launch template to provision an autoscaling group after usin
 3. Customize the userdata.tpl script to suit your application's requirements, such as environment variables, secrets, and container orchestration.
    
 ## Conclusion
-Voila!! You have successfully deployed a scalable static web server powered by Nginx using Terraform, auto-scaling, a load balancer, launch templates, and Docker on Ubuntu instances. Your infrastructure is now capable of handling varying workloads, maintaining high availability, distributing traffic efficiently, and deploying and managing Docker containers seamlessly..
+Voila!! You have successfully deployed a scalable static web server powered by Nginx using Terraform, auto-scaling, a load balancer, launch templates, and Docker on Ubuntu instances. Your infrastructure is now capable of handling varying workloads, maintaining high availability, distributing traffic efficiently, and deploying and managing Docker containers seamlessly.
 
 ## Note
 The resources created in this demo project may incur cost. So please take care to destroy the infrastructure if you don't need it.
